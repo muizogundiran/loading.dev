@@ -5,7 +5,18 @@
   "main": "index.js",
   "scripts": {
     "lint": "npx eslint **/*.js",
-    "lint:fix": " prettier  --write ."
+    "lint:fix": "prettier  --write ."
+  },
+  "husky" : {
+    "hooks" : {
+      "pre-commit" : "lint-staged"
+    }
+  },
+  "lint-staged" : {
+    "*.js" : [
+      "npm run lint:fix",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
