@@ -1,0 +1,20 @@
+{
+  "name": "loading.dev",
+  "version": "1.0.0",
+  "description": "Pure Css Loaders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muizogundiran/loading.dev.git"
+  },
+  "keywords": ["react" ,"spinners" , "loaders" , "css"],
+  "author": "Muiz Ogundiran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muizogundiran/loading.dev/issues"
+  },
+  "homepage": "https://github.com/muizogundiran/loading.dev#readme"
+}
