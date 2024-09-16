@@ -36,7 +36,7 @@
   "homepage": "https://github.com/muizogundiran/loading.dev#readme",
   "devDependencies": {
     "@messageformat/core": "3.0.0",
-    "eslint": "8.2.0",
+    "eslint": "8.57.1",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-node": "11.1.0",
